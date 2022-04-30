@@ -103,3 +103,22 @@ header{
     position: relative;
     bottom: 4px;
 }
+
+/* SECTION 4 */
+
+.section4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+}
+
+.img-right,
+.img-left{
+    width: 100%;
+}
+
+.sec4-h1,
+.sec4-p{
+    position: relative;
+    bottom: 10rem;
+}
